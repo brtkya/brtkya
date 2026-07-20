@@ -24,8 +24,8 @@ I'm comfortable working across the stack — from firmware-adjacent protocol deb
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=brtkya&show_icons=true&theme=default&hide_title=true" alt="GitHub stats" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brtkya&layout=compact&hide_title=true" alt="Top languages" height="150"/>
+  <img src="./stats.svg" alt="GitHub stats"/>
+  <img src="./top-langs.svg" alt="Top languages"/>
 </p>
 
 <table align="center">
