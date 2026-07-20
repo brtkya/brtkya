@@ -59,6 +59,7 @@ async function fetchStats() {
 // --- SVG helpers -----------------------------------------------------------
 
 const CARD_W = 320;
+const CARD_H = 210; // shared fixed height so both cards line up evenly
 
 function cardShell(height, title, innerSvg) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_W}" height="${height}" viewBox="0 0 ${CARD_W} ${height}" fill="none" role="img">
@@ -88,7 +89,7 @@ function buildStatsCard(stats) {
   <text x="${CARD_W - 20}" y="${y}" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#1f2328">${esc(value)}</text>`;
     })
     .join("\n  ");
-  return cardShell(startY + rows.length * rowH - 6, "GitHub Stats", inner);
+  return cardShell(CARD_H, "GitHub Stats", inner);
 }
 
 function buildLangsCard(langs) {
@@ -107,7 +108,7 @@ function buildLangsCard(langs) {
   <text x="${CARD_W - 20}" y="${y}" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">${l.pct.toFixed(1)}%</text>`;
     })
     .join("\n  ");
-  return cardShell(startY + top.length * rowH - 4, "Most Used Languages", inner);
+  return cardShell(CARD_H, "Most Used Languages", inner);
 }
 
 // --- main ------------------------------------------------------------------
