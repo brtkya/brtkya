@@ -77,7 +77,7 @@ function buildStatsCard(stats) {
   const rows = [
     ["Total Stars", stats.stars],
     ["Commits (last year)", stats.commits],
-    ["Total PRs", stats.prs],
+    ["Total Repos", stats.repos],
     ["Total Issues", stats.issues],
   ];
   const rowH = 26;
@@ -138,7 +138,7 @@ function buildLangsCard(langs) {
   const outDir = path.join(__dirname, "..");
   fs.writeFileSync(
     path.join(outDir, "stats.svg"),
-    buildStatsCard({ stars, commits, prs: user.pullRequests.totalCount, issues: user.issues.totalCount }),
+    buildStatsCard({ stars, commits, repos: user.repositories.nodes.length, issues: user.issues.totalCount }),
   );
   fs.writeFileSync(path.join(outDir, "top-langs.svg"), buildLangsCard(langs));
 
