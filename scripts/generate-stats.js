@@ -73,6 +73,16 @@ function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+// Vertically centers `rowCount` rows (spaced `rowH` apart) inside the card,
+// below the title, regardless of how many rows there are.
+const CONTENT_TOP = 46;
+const CONTENT_BOTTOM = CARD_H - 14;
+function centeredStartY(rowCount, rowH) {
+  const blockHeight = (rowCount - 1) * rowH;
+  const center = (CONTENT_TOP + CONTENT_BOTTOM) / 2;
+  return Math.round(center - blockHeight / 2);
+}
+
 function buildStatsCard(stats) {
   const rows = [
     ["Total Stars", stats.stars],
@@ -81,7 +91,7 @@ function buildStatsCard(stats) {
     ["Total Issues", stats.issues],
   ];
   const rowH = 26;
-  const startY = 56;
+  const startY = centeredStartY(rows.length, rowH);
   const inner = rows
     .map(([label, value], i) => {
       const y = startY + i * rowH;
@@ -95,7 +105,7 @@ function buildStatsCard(stats) {
 function buildLangsCard(langs) {
   const top = langs.slice(0, 6);
   const rowH = 24;
-  const startY = 56;
+  const startY = centeredStartY(top.length, rowH);
   const barX = 110;
   const barW = CARD_W - barX - 58;
   const inner = top
