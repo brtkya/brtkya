@@ -17,9 +17,13 @@
 
 I'm a **Software Engineering graduate** currently working as an **R&D Engineer and Software Developer**. I began as a candidate engineer during my final year of university, later transitioning into this role after graduation.
 
-My work centers on building the software layer for **embedded and hardware-integrated systems** — **Flutter and Python** mobile and desktop applications that communicate with physical devices over **Bluetooth**, **network protocols**, and **serial communication**, including **battery management system monitors**, **variable message sign controllers**, **LED displays**, and **Arduino-driven display systems**.
+My work spans the full software layer for **embedded and hardware-integrated systems** — from **Flutter and Python** client applications to **backend services and streaming infrastructure** that tie physical devices together over **Bluetooth**, **network protocols**, and **serial communication**, including **battery management system monitors**, **variable message sign controllers**, **LED displays**, and **Arduino-driven display systems**.
 
 I'm comfortable working across the stack — from **firmware-adjacent protocol debugging** to **application-level design** — and I actively use **AI tooling** to accelerate development and pick up unfamiliar technologies quickly.
+
+**Currently working on:**
+- **Onboard transit systems** — IoT device messaging (MQTT/UDP), video surveillance & streaming (RTSP → HLS/WebRTC, NVR integration), and GPIO-based sensor integration for embedded control hardware
+- **Camera-based quality control** using OpenCV for manufacturing inspection
 
 ---
 
