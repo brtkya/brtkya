@@ -4,7 +4,7 @@
   <text x="20" y="82" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#59636e">Total Stars</text>
   <text x="300" y="82" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#1f2328">10</text>
   <text x="20" y="108" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#59636e">Commits (last year)</text>
-  <text x="300" y="108" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#1f2328">288</text>
+  <text x="300" y="108" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#1f2328">293</text>
   <text x="20" y="134" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#59636e">Total Repos</text>
   <text x="300" y="134" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="600" fill="#1f2328">24</text>
   <text x="20" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" fill="#59636e">Total Issues</text>
