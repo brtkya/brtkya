@@ -3,24 +3,24 @@
   <text x="20" y="30" font-family="Segoe UI, Ubuntu, sans-serif" font-size="15" font-weight="600" fill="#0969da">Most Used Languages</text>
   <text x="20" y="61" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">Dart</text>
   <rect x="110" y="52" width="152" height="8" rx="4" fill="#f6f8fa"/>
-  <rect x="110" y="52" width="50" height="8" rx="4" fill="#00B4AB"/>
-  <text x="300" y="61" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">32.6%</text>
+  <rect x="110" y="52" width="49" height="8" rx="4" fill="#00B4AB"/>
+  <text x="300" y="61" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">32.4%</text>
   <text x="20" y="85" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">Python</text>
   <rect x="110" y="76" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="76" width="26" height="8" rx="4" fill="#3572A5"/>
-  <text x="300" y="85" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">16.9%</text>
+  <text x="300" y="85" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">16.8%</text>
   <text x="20" y="109" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">JavaScript</text>
   <rect x="110" y="100" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="100" width="18" height="8" rx="4" fill="#f1e05a"/>
   <text x="300" y="109" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">11.5%</text>
   <text x="20" y="133" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">CSS</text>
   <rect x="110" y="124" width="152" height="8" rx="4" fill="#f6f8fa"/>
-  <rect x="110" y="124" width="17" height="8" rx="4" fill="#663399"/>
-  <text x="300" y="133" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">10.9%</text>
+  <rect x="110" y="124" width="16" height="8" rx="4" fill="#663399"/>
+  <text x="300" y="133" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">10.8%</text>
   <text x="20" y="157" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">C++</text>
   <rect x="110" y="148" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="148" width="10" height="8" rx="4" fill="#f34b7d"/>
-  <text x="300" y="157" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">6.9%</text>
+  <text x="300" y="157" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">6.8%</text>
   <text x="20" y="181" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">EJS</text>
   <rect x="110" y="172" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="172" width="10" height="8" rx="4" fill="#a91e50"/>
