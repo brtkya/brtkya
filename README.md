@@ -1,5 +1,5 @@
 <h1 align="center">Berat Kaya</h1>
-<p align="center"><b>Software Engineer</b></p>
+<p align="center"><b>Software Engineer @ FSM Information Technologies</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" />
@@ -17,7 +17,7 @@
 
 ---
 
-I'm working as a **Software Engineer** in an **R&D department**. I began as a candidate engineer during my final year of university and joined full-time after graduation.
+I'm working as a **Software Engineer** in the **R&D department of FSM Information Technologies**. I began as a candidate engineer during my final year of university and joined full-time after graduation.
 
 My work spans the full software layer for **embedded and hardware-integrated systems** — from **Flutter and Python** client applications to **backend services and streaming infrastructure** that tie physical devices together over **Bluetooth**, **network protocols**, and **serial communication**, including **battery management system monitors**, **variable message sign controllers**, **LED displays**, and **Arduino-driven display systems**.
 
