@@ -11,12 +11,12 @@
   <text x="300" y="85" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">15.2%</text>
   <text x="20" y="109" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">Python</text>
   <rect x="110" y="100" width="152" height="8" rx="4" fill="#f6f8fa"/>
-  <rect x="110" y="100" width="22" height="8" rx="4" fill="#3572A5"/>
+  <rect x="110" y="100" width="21" height="8" rx="4" fill="#3572A5"/>
   <text x="300" y="109" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">14.1%</text>
   <text x="20" y="133" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">JavaScript</text>
   <rect x="110" y="124" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="124" width="17" height="8" rx="4" fill="#f1e05a"/>
-  <text x="300" y="133" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">11.3%</text>
+  <text x="300" y="133" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">11.2%</text>
   <text x="20" y="157" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">CSS</text>
   <rect x="110" y="148" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="148" width="15" height="8" rx="4" fill="#663399"/>
