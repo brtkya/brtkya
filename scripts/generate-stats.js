@@ -121,6 +121,41 @@ function buildLangsCard(langs) {
   return cardShell(CARD_H, "Most Used Languages", inner);
 }
 
+// --- visitor counter -------------------------------------------------------
+// The README embeds an invisible hits.sh pixel that counts views. Once a day we
+// read that count back from the badge and render it as black digit boxes.
+// extraCount carries over the 423 visits from the old counter service.
+
+const HITS_URL = "https://hits.sh/github.com/brtkya/brtkya.svg?extraCount=422";
+const DIGITS = 7;
+
+async function fetchVisitorCount() {
+  const res = await fetch(HITS_URL, { headers: { "User-Agent": LOGIN } });
+  if (!res.ok) throw new Error(`hits.sh ${res.status}`);
+  const m = (await res.text()).match(/aria-label="hits: (\d+)"/);
+  if (!m) throw new Error("could not parse hits.sh count");
+  return Number(m[1]);
+}
+
+function buildVisitorSvg(count) {
+  const boxW = 40;
+  const boxH = 44;
+  const gap = 4;
+  const w = DIGITS * boxW + (DIGITS - 1) * gap;
+  const digits = String(count).padStart(DIGITS, "0").split("");
+  const inner = digits
+    .map((d, i) => {
+      const x = i * (boxW + gap);
+      return `<rect x="${x}" y="0" width="${boxW}" height="${boxH}" fill="#000000"/>
+  <text x="${x + boxW / 2}" y="${boxH / 2 + 12}" text-anchor="middle" font-family="Courier New, Consolas, monospace" font-size="34" fill="#39ff14">${d}</text>`;
+    })
+    .join("\n  ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${boxH}" viewBox="0 0 ${w} ${boxH}" role="img" aria-label="Visitor count: ${count}">
+  <title>Visitor count: ${count}</title>
+  ${inner}
+</svg>`;
+}
+
 // --- main ------------------------------------------------------------------
 
 (async () => {
@@ -151,6 +186,18 @@ function buildLangsCard(langs) {
     buildStatsCard({ stars, commits, repos: user.repositories.nodes.length, issues: user.issues.totalCount }),
   );
   fs.writeFileSync(path.join(outDir, "top-langs.svg"), buildLangsCard(langs));
+
+  try {
+    const visitors = await fetchVisitorCount();
+    fs.writeFileSync(path.join(outDir, "visitor.svg"), buildVisitorSvg(visitors));
+    console.log(`visitors=${visitors}`);
+    // The workflow's commit step only `git add`s the stat cards, so stage this file here (CI only).
+    if (process.env.GITHUB_ACTIONS) {
+      require("child_process").execSync("git add visitor.svg", { cwd: outDir, stdio: "inherit" });
+    }
+  } catch (err) {
+    console.warn(`visitor counter skipped, keeping previous visitor.svg: ${err.message}`);
+  }
 
   console.log(`stars=${stars} commits=${commits} prs=${user.pullRequests.totalCount} issues=${user.issues.totalCount}`);
   console.log(`languages: ${langs.slice(0, 6).map((l) => `${l.name} ${l.pct.toFixed(1)}%`).join(", ")}`);

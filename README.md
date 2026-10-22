@@ -38,6 +38,6 @@ I'm comfortable working across the stack — from **firmware-adjacent protocol d
 <table align="center">
   <tr>
     <td>You are visitor</td>
-    <td><img src="https://hits.sh/github.com/brtkya/brtkya.svg?style=for-the-badge&label=%20&color=000000&labelColor=000000&extraCount=422" alt="Visitor count" /></td>
+    <td><img src="./visitor.svg" alt="Visitor count" /><img src="https://hits.sh/github.com/brtkya/brtkya.svg?extraCount=422" width="1" height="1" alt="" /></td>
   </tr>
 </table>
