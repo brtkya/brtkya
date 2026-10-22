@@ -38,6 +38,6 @@ I'm comfortable working across the stack — from **firmware-adjacent protocol d
 <table align="center">
   <tr>
     <td>You are visitor</td>
-    <td><img src="https://profile-counter.deno.dev/brtkya/count.svg" alt="Key:: Visitor's Count" /></td>
+    <td><img src="https://komarev.com/ghpvc/?username=brtkya&base=423&label=&color=39ff14&style=flat-square" alt="Visitor count" /></td>
   </tr>
 </table>
