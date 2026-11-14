@@ -4,22 +4,22 @@
   <text x="20" y="61" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">Dart</text>
   <rect x="110" y="52" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="52" width="31" height="8" rx="4" fill="#00B4AB"/>
-  <text x="300" y="61" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">20.4%</text>
+  <text x="300" y="61" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">20.3%</text>
   <text x="20" y="85" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">TypeScript</text>
   <rect x="110" y="76" width="152" height="8" rx="4" fill="#f6f8fa"/>
-  <rect x="110" y="76" width="28" height="8" rx="4" fill="#3178c6"/>
-  <text x="300" y="85" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">18.7%</text>
+  <rect x="110" y="76" width="29" height="8" rx="4" fill="#3178c6"/>
+  <text x="300" y="85" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">18.8%</text>
   <text x="20" y="109" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">Python</text>
   <rect x="110" y="100" width="152" height="8" rx="4" fill="#f6f8fa"/>
   <rect x="110" y="100" width="20" height="8" rx="4" fill="#3572A5"/>
   <text x="300" y="109" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">13.3%</text>
-  <text x="20" y="133" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">JavaScript</text>
+  <text x="20" y="133" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">C#</text>
   <rect x="110" y="124" width="152" height="8" rx="4" fill="#f6f8fa"/>
-  <rect x="110" y="124" width="19" height="8" rx="4" fill="#f1e05a"/>
-  <text x="300" y="133" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">12.2%</text>
-  <text x="20" y="157" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">C#</text>
+  <rect x="110" y="124" width="19" height="8" rx="4" fill="#7355dd"/>
+  <text x="300" y="133" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">12.4%</text>
+  <text x="20" y="157" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">JavaScript</text>
   <rect x="110" y="148" width="152" height="8" rx="4" fill="#f6f8fa"/>
-  <rect x="110" y="148" width="19" height="8" rx="4" fill="#7355dd"/>
+  <rect x="110" y="148" width="19" height="8" rx="4" fill="#f1e05a"/>
   <text x="300" y="157" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">12.2%</text>
   <text x="20" y="181" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" fill="#59636e">CSS</text>
   <rect x="110" y="172" width="152" height="8" rx="4" fill="#f6f8fa"/>
